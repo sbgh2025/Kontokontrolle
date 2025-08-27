@@ -138,7 +138,7 @@ def start_gui():
     frame_top.pack(pady=10)
     tk.Button(frame_top, text="ODS importieren", command=ods_auswaehlen).pack()
 
-    #tree ersetzen durch fram
+   
     # Frame für Scrollbar und Treeview
     frame_table = tk.Frame(root)
     frame_table.pack(fill=tk.BOTH, expand=True, pady=10)
