@@ -17,13 +17,7 @@ Ein Python-Tool zur Verwaltung von Kontoauszügen im `.ods`-Format, inklusive au
 - 📝 **Regelverwaltung** mit Bearbeiten & Löschen über eigene GUI
 - 🗃️ **SQLite-Datenbank** zur persistenten Speicherung
 
----
 
-## 🖥️ Screenshots
-
-> *(Optional: Du kannst hier Screenshots einfügen, wenn du möchtest.)*
-
----
 
 ## 📦 Voraussetzungen
 
@@ -47,7 +41,7 @@ pip install ezodf odfpy
 ### 1. GUI zum Importieren von Kontoauszügen:
 
 ```bash
-python importer.py
+python konto.py
 ```
 
 Hier kannst du:
@@ -59,7 +53,7 @@ Hier kannst du:
 ### 2. GUI zur Regel-Verwaltung:
 
 ```bash
-python regeln_gui.py
+python konto_regeln.py
 ```
 
 Hier kannst du:
@@ -112,12 +106,6 @@ Alle Daten bleiben lokal auf deinem System gespeichert. Es gibt **keine externe 
 
 ---
 
-## 📜 Lizenz
-
-Dieses Projekt steht unter der MIT-Lizenz. Siehe `LICENSE` für Details.
-
----
-
 ## 💡 Ideen für Erweiterungen
 
 * CSV-Import
@@ -132,19 +120,3 @@ Dieses Projekt steht unter der MIT-Lizenz. Siehe `LICENSE` für Details.
 Pull Requests, Verbesserungsvorschläge oder Fehlerberichte sind willkommen!
 
 ---
-
-```
-
----
-
-### ✅ Tipps für GitHub:
-
-1. Speichere diesen Inhalt als `README.md` im Wurzelverzeichnis deines Repos.
-2. Erstelle ggf. zwei Dateien:
-   - `importer.py` für den ODS-Importer
-   - `regeln_gui.py` für die Regelverwaltung
-3. Optional: Screenshots im Projektordner ablegen und im README verlinken.
-
-Wenn du willst, kann ich dir auch ein passendes `LICENSE`-Template oder `.gitignore` dazuschreiben. Sag einfach Bescheid.
-```
-
